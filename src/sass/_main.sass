@@ -1,0 +1,89 @@
+// Normally mainpage styles
+.menu
+	margin-top: 40pt
+	ul
+		li
+			border-bottom: 1px solid #d9d9d9
+			&:first-child
+				border-top: 1px solid #d9d9d9
+			a
+				display: block
+				height: 50px
+				padding: 5px 25px 5px 15px
+				background: #FFF 
+				+vertical
+				color: #444
+				font-size: 16px
+				line-height: 1
+				text-align: left
+				+clr
+				i
+					display: inline-block
+					vertical-align: middle
+					margin-right: 15px
+				span
+					float: right
+					display: block
+					margin-top: 10px
+					+s(arr)
+
+.faq
+	padding: 0
+
+.slider
+	.slide
+		position: relative
+		height: 100vh
+		padding-bottom: 140pt
+		background: #FFF 
+		text-align: center
+		.slide__img 
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 140pt
+			z-index: 1
+			img
+				display: inline-block
+				vertical-align: bottom
+				height: 100%
+		.slide__text
+			position: absolute
+			top: auto
+			left: 0
+			right: 0
+			bottom: 0
+			height: 140pt
+			background: #FFF 
+			padding-bottom: 30pt
+			z-index: 2
+			p
+				display: block
+				padding: 12pt 24pt
+				color: #111
+				font-size: 16pt
+				line-height: 1.375
+		&.slide-1
+			.slide__img
+				background: #47ADDC
+				+rh(568)
+					top: 0
+					bottom: auto
+		&.slide-2
+			.slide__img
+				background: #A24EA3 
+				+rh(568)
+					top: auto
+		&.slide-3
+			.slide__img
+				background: #FFD013 
+				+rh(568)
+					top: auto
+		&.slide-4
+			.slide__img
+				background: #7CBC2C 
+				+rh(568)
+					top: 0
+					bottom: auto
+			 
