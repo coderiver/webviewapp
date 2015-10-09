@@ -90,6 +90,17 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .slider .slide.slide-4 .slide__img { background: #7CBC2C; }
 @media only screen and (max-height: 568px) { .slider .slide.slide-4 .slide__img { top: 0; bottom: auto; } }
 
+.mission { color: #111; margin: 30px 10px; }
+.mission h1 { margin-bottom: 20px; font-size: 20px; font-weight: normal; }
+.mission h2 { margin-bottom: 20px; font-size: 16px; font-weight: normal; }
+.mission p { margin-bottom: 20px; font-size: 16px; }
+.mission ol { list-style-type: decimal; }
+.mission ul li { position: relative; margin-left: -25px; padding-left: 25px; }
+.mission ul li:before { content: "—"; position: absolute; left: 0; top: 0; }
+.mission ol, .mission ul { position: relative; margin: 0 0 20px 20px; }
+.mission ol li, .mission ul li { margin-bottom: 10px; font-size: 16px; color: #7DBC3C; }
+.mission ol li p, .mission ul li p { color: #111; }
+
 .slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 
 .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
