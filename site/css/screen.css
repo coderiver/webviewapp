@@ -79,7 +79,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .slider .slide { position: relative; height: 100vh; padding-bottom: 140pt; background: #FFF; text-align: center; }
 .slider .slide .slide__img { position: absolute; top: 0; left: 0; right: 0; bottom: 140pt; z-index: 1; }
 .slider .slide .slide__img img { display: inline-block; vertical-align: bottom; height: 100%; }
-.slider .slide .slide__text { position: absolute; top: auto; left: 0; right: 0; bottom: 0; height: 140pt; background: #FFF; padding-bottom: 30pt; z-index: 2; }
+.slider .slide .slide__text { position: absolute; top: auto; left: 0; right: 0; bottom: 0; height: 140pt; background: #FFF; padding-bottom: 30pt; z-index: 2; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 .slider .slide .slide__text p { display: block; padding: 12pt 24pt; color: #111; font-size: 16pt; line-height: 1.375; }
 .slider .slide.slide-1 .slide__img { background: #47ADDC; }
 @media only screen and (max-height: 568px) { .slider .slide.slide-1 .slide__img { top: 0; bottom: auto; } }
